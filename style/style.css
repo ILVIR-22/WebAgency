@@ -1,0 +1,320 @@
+@font-face {
+	font-family: 'Parangon 530';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Parangon 530C.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Parangon 530C.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Parangon 530C.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Parangon 530C.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'helveticaneuecyr';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/helveticaneuecyr_802/helveticaneuecyr_802.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/helveticaneuecyr_802/helveticaneuecyr_802.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/helveticaneuecyr_802/helveticaneuecyr_802.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/helveticaneuecyr_802/helveticaneuecyr_802.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Tahoma';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Tahoma/ofont.ru_Tahoma.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Tahoma/ofont.ru_Tahoma.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Tahoma/ofont.ru_Tahoma.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/Tahoma/ofont.ru_Tahoma.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_futurafuturisc';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/futurafuturisc.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/futurafuturisc.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/futurafuturisc.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/futurafuturisc.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'arial';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arial.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arial.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arial.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arial.svg') format('svg');
+	font-weight: 400;
+	font-style: regular;
+}
+@font-face {
+	font-family: 'arial bold';
+	src: url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arialbd.eot');
+	src: local('☺'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arialbd.woff') format('woff'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arialbd.ttf') format('truetype'), url('C:/Users/User/Desktop/Projects/WebAgency/fonts/arialbd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+    max-width: 1500px;
+    max-height: 100%;
+
+}
+.fon {
+    max-height: 810px;
+    max-width: 100%;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background: url("C:/Users/User/Desktop/Projects/WebAgency/image/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;   
+}
+.header {
+    max-height: 810px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 0.5fr 1.5fr 1.1fr 1fr 0.6fr;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background: rgb(48,50,99,0.67);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    grid-template-areas: 
+    ". . . . ."
+    "our_site our_site our_site our_site our_site"
+    ". description description description ."
+    ". results results results ."
+    ". . . . ."
+    ;
+  
+}
+.our_site {
+    grid-area: our_site;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: 'Parangon 530';
+    font-size: calc(33px + 15 * (100vw / 1500));
+    letter-spacing: 0.9px;
+    line-height: 69px;
+    color: #ffffff;
+    
+}
+.description {
+    grid-area: description;
+    display: flex;
+    align-items: center;
+    padding-bottom: 56px;
+    width: 100%;
+    height: 100%;
+    font-family: "PT Sans";
+    text-align: center;
+    font-size: calc(18px + 6 * (100vw / 1500));
+    letter-spacing: 3.5px;
+    line-height: 24px;
+}
+.results {
+    grid-area: results;
+    max-width: 872px;
+    max-height: 160px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 160px;
+          
+        
+}
+.results1 {
+    width: 290px;
+    max-height: 160px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.number518 {
+    
+    font-family: 'Parangon 530';
+    font-size: 48pt;
+          
+}
+.text518 {
+    
+    font-family: "PT Sans";
+    font-size: 18pt;
+}
+.results2 {
+    width: 290px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.number345 {
+    font-family: 'Parangon 530';
+    font-size: 48pt;
+}
+.text345 {
+    font-family: "PT Sans";
+    font-size: 18pt;
+}
+.results3 {
+    width: 290px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;  
+}
+.number218 {
+    font-family: 'Parangon 530';
+    font-size: 48pt;
+    justify-content: center;
+    align-content: center;        
+}
+.text218 {
+    font-family: "PT Sans";
+    font-size: 18pt;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 132px;
+    padding-left: 525px;
+    height: 98px;
+    max-width: 100%;
+    border-bottom: 2px solid #adadad;
+       
+}
+.header-nav__link {
+    font-family: 'Conv_futurafuturisc';
+    text-decoration: none;
+    color: black;
+    font-size: 17pt;
+      
+}
+.main {
+    color: #f6ae48;
+}
+.container_small {
+    
+    margin-left: 132px;
+    margin-right: 132px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.studio {
+    display: grid;
+    height: 485px;
+    max-width: 100%;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 
+    "studio_big studio_small";
+
+    align-items: center;
+    position: relative;
+    
+}
+.studio_big {
+    grid-area: studio_big;
+    font-family: 'helveticaneuecyr';
+    font-size: 48pt;
+    
+   
+}
+.studio_small {
+    grid-area: studio_small;
+    font-family: 'helveticaneuecyr';
+    width: 841px;
+    padding-left: 129px;
+    font-size: 15pt;
+    line-height: 29px;
+    color: #313131;
+        
+}
+.fon_we {
+    font-family: 'Tahoma';
+    font-size: 270pt;
+    color: #f4f4f4;
+    position: absolute;
+    z-index: -1;
+    margin-top: -83px;
+    margin-left: -90px;
+}
+.service {
+    display: grid;
+    height: 633px;
+    width: 100%;
+    align-items: start;
+    padding-top: 30px;
+
+    justify-items: center;
+    grid-template-columns: 3fr 3fr 3fr;
+    overflow: hidden;
+}
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 344px;
+    width: 100%;
+    padding: 23px 23px;
+}
+.rocket {
+    height: 58px;
+    width: 30px;
+    padding-bottom: 20px;
+}
+.start_one {
+    font-family: 'arial bold';
+    font-size: 20.45pt;
+    padding-bottom: 15px;
+}
+.start_text {
+    font-family: 'arial';
+    font-size: 12.35pt;
+    line-height: 18px;
+}
+.promotion {
+    display: flex;
+    flex-direction: column;
+    height: 344px;
+    width: 100%;
+    padding: 23px 23px;
+}
+.mobile {
+    height: 58px;
+    width: 30px;
+    padding-bottom: 20px;
+}
+.promotion_one {
+    font-family: 'arial bold';
+    font-size: 20.45pt;
+    padding-bottom: 15px;
+}
+.promotion_text {
+    font-family: 'arial';
+    font-size: 12.35pt;
+    line-height: 18px;
+}
+.support {
+    display: flex;
+    flex-direction: column;
+    height: 343px;
+    width: 100%;
+    padding: 23px 23px;
+    border: 1px solid #f6ae48;
+    background-color: #f6ae48;
+    box-sizing: border-box;
+}
+.lifeline {
+    height: 44px;
+    width: 54px;
+    padding-bottom: 20px;
+}
+.support_one {
+    font-family: 'arial bold';
+    font-size: 20.45pt;
+    padding-bottom: 15px;
+}
+.support_text {
+    font-family: 'arial';
+    font-size: 12.35pt;
+    line-height: 18px;
+}
